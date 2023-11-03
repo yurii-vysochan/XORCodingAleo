@@ -1,0 +1,30 @@
+// The program input for xor_coding/src/main.leo
+[encode] // Must return 479745i128
+to_encode: i128 = 324989i128;
+key: i128 = 239484i128;
+
+[decode] // Must return 324989i128
+to_decode: i128 = 479745i128;
+key: i128 = 239484i128;
+
+[encode2] // Must return 634065i128
+to_encode: i128 = 324989i128;
+key1: i128 = 239484i128;
+key2: i128 = 982736i128;
+
+[decode2] // Must return 324989i128
+to_decode: i128 = 634065i128;
+key1: i128 = 982736i128;
+key2: i128 = 239484i128; 
+
+[encode3] // Must return 975095i128
+to_encode: i128 = 324989i128;
+key1: i128 = 239484i128;
+key2: i128 = 982736i128;
+key3: i128 = 478246i128;
+
+[decode3] // Must return 324989i128
+to_decode: i128 = 975095i128;
+key1: i128 = 478246i128;
+key2: i128 = 982736i128;
+key3: i128 = 239484i128;
